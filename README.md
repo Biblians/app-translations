@@ -73,6 +73,7 @@ If you notice a problem in any language
 
 ## Links and contact
 
+- Website https://biblians.com
 - Google Play https://play.google.com/store/apps/details?id=com.biblians.app  
 - Email support@biblians.com  
 
