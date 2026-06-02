@@ -3,11 +3,18 @@
   "aiFiveVerseLimit" : "Ask AI works with up to 5 verses at a time.",
   "askAi" : "Ask AI",
   "askAiMessage" : "Help me understand this passage from",
+  "authContinueWith" : "Continue with",
+  "authDividerOr" : "Or",
+  "authGoogleNotSupported" : "Google Sign-In isn't supported on your device",
   "authGoogleSignin" : "Continue with Google",
   "authGoogleSignInFailed" : "Google Sign-In Failed",
   "authGoogleSuccessMessage" : "Welcome back. You’re signed in.",
   "authGuestSignin" : "Explore as Guest",
+  "authHuaweiNotSupported" : "Huawei Sign-In isn't supported on your device",
+  "authHuaweiSignin" : "Continue with Huawei",
+  "authHuaweiSignInFailed" : "Huawei Sign-In Failed",
   "authUnexpectedError" : "An unexpected error occurred.",
+  "authVKSignin" : "Continue with VK",
   "batteryOptimizationAllowBackgroundSync" : "Allow Background Sync",
   "batteryOptimizationBackgroundActivityLimitMessage" : "Android limits background activity to save battery. A quick setting change keeps your widgets, reminders, and notifications running smoothly.",
   "batteryOptimizationDailyTimelyRemindersMessage" : "Never miss a devotion. Your scheduled reminders will arrive exactly when you set them.",
@@ -96,6 +103,7 @@
   "companionHomeNt" : "NEW TESTAMENT",
   "companionHomeOt" : "OLD TESTAMENT",
   "companionHomeTitle" : "Biblical Companions",
+  "copy" : "Copy",
   "donationFeature1Message" : "Protect a peaceful, distraction-free space for Scripture and reflection.",
   "donationFeature1Title" : "Keep Biblians ad-free",
   "donationFeature2Message" : "Help cover AI and server costs so more people can study and seek guidance.",
@@ -155,7 +163,7 @@
   "eveningSheetSubmit" : "Seek Guidance",
   "eveningSheetSubtitle" : "What stayed with you today? Share what’s on your heart, and let’s reflect together.",
   "eveningSheetTitle" : "Evening Reflection",
-  "fl_ota_version" : "5",
+  "fl_ota_version" : "7",
   "graceContinueJourney" : "Continue Journey",
   "graceDonationLinkMessage" : "Learn how this stays free",
   "graceExhaustedDonateMessage" : "These limits help us manage server & AI costs and keep Biblians accessible to all.",
@@ -204,6 +212,67 @@
   "homeSupportMission" : "Support the Mission",
   "homeVotdFailed" : "Could not fetch verse of the day",
   "languageSelectionTitle" : "Language",
+  "livingStoriesEpisodeCardSeasonText" : "S{season} • E{episode}",
+  "@livingStoriesEpisodeCardSeasonText" : {
+    "placeholders" : {
+      "season" : {
+        "type" : "String"
+      },
+      "episode" : {
+        "type" : "String"
+      }
+    }
+  },
+  "livingStoriesEpisodeDisclaimer" : "A cinematic retelling drawn from Scripture. Every truth is His. Every detail serves it.",
+  "livingStoriesEpisodeRefSubtitle" : "Read it in His own words",
+  "livingStoriesEpisodeRefTitle" : "THE INSPIRATION",
+  "livingStoriesEpisodeSeasonText" : "S{season} • E{episode}",
+  "@livingStoriesEpisodeSeasonText" : {
+    "placeholders" : {
+      "season" : {
+        "type" : "String"
+      },
+      "episode" : {
+        "type" : "String"
+      }
+    }
+  },
+  "livingStoriesEpisodesError" : "Couldn't load episodes.",
+  "livingStoriesFeaturedError" : "Couldn't load featured story.",
+  "livingStoriesHeroSubtitle" : "God's Word has never felt this close. Handpicked stories from Scripture, each one crafted with depth and reverence to stir your heart and draw you nearer to Him.",
+  "livingStoriesHeroTitle" : "Living Stories",
+  "livingStoriesSeasonChip" : "Season {season}",
+  "@livingStoriesSeasonChip" : {
+    "placeholders" : {
+      "season" : {
+        "type" : "int"
+      }
+    }
+  },
+  "livingStoriesSeasonLoadError" : "Couldn't load seasons.",
+  "livingStoriesTitle" : "Living Stories",
+  "livingStoryDisclaimerAccept" : "I Understand",
+  "livingStoryDisclaimerContent1" : "These are faithful retellings of Scripture, told with cinematic depth and immersive detail. Every core event and spiritual truth comes directly from God's Word. Some descriptive elements like weather, emotion, and atmosphere have been added to honor the story's weight, not to change it.",
+  "livingStoryDisclaimerContent2" : "Living Stories are not a replacement for the Bible. They are a companion, crafted with reverence, to help you feel the truth you already know.",
+  "livingStoryDisclaimerTitle" : "About Living Stories",
+  "livingStoryEpisodeError" : "Couldn't load episode.",
+  "livingStoryEpisodeShare" : "Share This Story",
+  "livingStoryEpisodeShareMessage" : "Thought of you when I read \"{title}\" on Biblians.\n\n{description}\n\n{storyLink}",
+  "@livingStoryEpisodeShareMessage" : {
+    "placeholders" : {
+      "title" : {
+        "type" : "String"
+      },
+      "storyLink" : {
+        "type" : "String"
+      },
+      "description" : {
+        "type" : "String"
+      }
+    }
+  },
+  "livingStoryEpisodeShareSubtitle" : "Share it with someone on your heart.",
+  "livingStoryEpisodeShareTitle" : "Did this story move you?",
   "mainbottomNavigationBarBible" : "Bible",
   "mainbottomNavigationBarChat" : "Chat",
   "mainbottomNavigationBarHome" : "Home",
@@ -725,6 +794,9 @@
   "themeSystem" : "Use Device Settings",
   "themeTitle" : "Theme",
   "tooltipLongPressVerse" : "Long press a verse to share it or ask AI",
+  "tooltipSinglePressVerse" : "Press a verse to share it or ask AI",
+  "upNext" : "Next Story",
+  "upNextError" : "Couldn't load upcoming episodes.",
   "verseCardExplainMessage" : "Explain this verse in simple words",
   "verseCardGuestLike" : "Sign in to save your likes.",
   "verseCardLikeFailed" : "Failed to update: {error}",
@@ -736,6 +808,7 @@
     }
   },
   "verseCardLikeRetry" : "Retry",
+  "verseCardRedirectionTooltip" : "Read full chapter",
   "verseCardShareMessage" : "Begin your day with Scripture and gentle encouragement on Biblians:",
   "verseCardShareMessageTitle" : "Verse Of The Day",
   "verseCardTitle" : "VERSE OF THE DAY",
